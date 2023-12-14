@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BD Stroi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
+    <!-- Подключить swiper с помощью сервера-->
+    <link rel="stylesheet" href="css/swiper-bundle.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header header-main">
+        <div class="container">
+          <div class="header__inner">
+            <a href="index.html" class="logo">
+              <img src="images/logo.svg" alt="логотип" class="logo" />
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a href="#main" class="menu__list-link">Главная</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#best" class="menu__list-link">Преимущества</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#uslugi" class="menu__list-link">Услуги</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#projects" class="menu__list-link">Проекты</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="contacts.html" class="menu__list-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="top">
+          <div class="container">
+            <h1 class="title">Монтаж инженерных систем</h1>
+            <a href="contacts.html" class="top__link"> Напишите нам </a>
+          </div>
+        </section>
+        <div class="slider">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide"
+                style="background-image: url(images/slide-1.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(images/slide-2.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(images/slide-3.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(images/slide-4.jpg)"
+              ></div>
+            </div>
+            <!--<div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>-->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <section class="why-lease">
+          <div class="container">
+            <h2 id="best" class="section-title">Почему выбирают нас?</h2>
+            <ul class="why-lease_list">
+              <li class="why-lease__item">
+                <img
+                  src="images/why-lease-1.svg"
+                  alt=""
+                  class="why-lease__item-img"
+                />
+                <h3 class="why-lease__item-title">Профессиональная команда</h3>
+                <p class="why-lease__item-text">
+                  Мы работаем только с профессионалами высочайшего уровня,
+                  обладающими глубоким опытом. Все наши дизайнеры,
+                  проектировщики, инженеры и архитекторы являются
+                  сертифицированными специалистами.
+                </p>
+              </li>
+              <li class="why-lease__item">
+                <img
+                  src="images/why-lease-2.svg"
+                  alt=""
+                  class="why-lease__item-img"
+                />
+                <h3 class="why-lease__item-title">Качественные материалы</h3>
+                <p class="why-lease__item-text">
+                  В своей работе мы уделяем особое внимание не только качеству
+                  основных строительных материалов, но и качеству расходных
+                  материалов, лаков, краски, химических средств.
+                </p>
+              </li>
+              <li class="why-lease__item">
+                <img
+                  src="images/why-lease-3.svg"
+                  alt=""
+                  class="why-lease__item-img"
+                />
+                <h3 class="why-lease__item-title">Проверенные поставщики</h3>
+                <p class="why-lease__item-text">
+                  Мы работаем исключительно с проверенными брендами. Наши
+                  партнёры-производители проходят тщательную проверку, чтобы
+                  заслужить наше доверие.
+                </p>
+              </li>
+              <li class="why-lease__item">
+                <img
+                  src="images/why-lease-4.svg"
+                  alt=""
+                  class="why-lease__item-img"
+                />
+                <h3 class="why-lease__item-title">Лучшие креативные решения</h3>
+                <p class="why-lease__item-text">
+                  Каждый наш проект уникален и разрабатывается индивидуально под
+                  каждого клиента. Только так можно создать по-настоящему
+                  уникальный дизайн.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="how-does">
+          <div class="container">
+            <div class="how-does__inner">
+              <h2 id="uslugi" class="section-title">Основные направления услуг</h2>
+              <h3 class="how-does__text">
+                Здесь представлены ключевые принципы работы нашей компании,
+                разбитые по категориям. Если необходимой вам услуги нет в
+                списке, напишите нам.
+              </h3>
+              <ol class="how__does-list">
+                <!-- нумерованный список пунктов -->
+                <li class="how__does-item">
+                  Монтаж вентиляции является основным и главным направлением
+                  компании ОВК Строй. Наша компания выполняет монтаж вентиляции
+                  уже более 6 лет.
+                </li>
+                <li class="how__does-item">
+                  Кроме того, мы реализуем оборудование для кондиционирования и
+                  венлиляции помещений в Москве и области.
+                </li>
+                <li class="how__does-item">
+                  Основная задача задача наших специалистов это поиск
+                  оптимальных решений по взаимодействию инженерных систем.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </section>
+        <section class="video-home">
+          <div class="container">
+            <h2 class="section-title video__title">МЫ НАСТРОЕНЫ НА КАЧЕСТВО</h2>
+            <p class="video__text">
+              Каждый из нас старается делать всё так, чтобы ВАМ понравилось!
+            </p>
+            <iframe
+              class="video__content"
+              width="1000"
+              height="500"
+              src="https://www.youtube.com/embed/WDTiu3nVecg?si=MGKENVQ_6NtSepyZ&amp;controls=0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </section>
+        <section class="projects">
+          <div class="container">
+            <h2 id="projects" class="section-title projects__title">Реализованные проекты</h2>
+            <h3 class="projects__text">
+              Представляем вам лучшие работы нашей компании. От потрясающих
+              коттеджей до больших преприятий.
+            </h3>
+            <ul class="projects__list">
+              <li class="projects__item">
+                <img src="images/prj-1.jpg" alt="" class="projects__item-img" />
+                <h3 class="projects__item-name">Построили удобную ванную</h3>
+                <p class="projects__item-text">
+                  Ванная комната в квартире или в частном доме должна выглядеть
+                  привлекательно и быть удобной для пользования. Именно это мы
+                  считаем главной задачей и добиваемся результата, подходя к
+                  ремонту ванной комнаты нестандартными методами.
+                </p>
+                <a href="#" class="projects__item-all"
+                  ><!-- Читать полностью< --></a
+                >
+              </li>
+              <li class="projects__item">
+                <img src="images/prj-2.jpg" alt="" class="projects__item-img" />
+                <h3 class="projects__item-name">
+                  Сделали дождевую канализацию дома
+                </h3>
+                <p class="projects__item-text">
+                  Из-за перенасыщенности влагой почва и грунт могут негативно
+                  влиять на состояние фундамента и сруба. Бетонное основание
+                  начинает трескаться и деформироваться, подвал постоянно
+                  затапливается, а на деревянных стенах появляются гниль и
+                  плесень. Поэтому очень важно грамотно организовать дождевую
+                  канализацию на загородном участке.
+                </p>
+                <a href="#" class="projects__item-all"
+                  ><!-- Читать полностью --></a
+                >
+              </li>
+              <li class="projects__item">
+                <img src="images/prj-3.jpg" alt="" class="projects__item-img" />
+                <h3 class="projects__item-name">
+                  Спроектировали и провели отполение
+                </h3>
+                <p class="projects__item-text">
+                  Отопление частного дома – сложная проблема, особенно в
+                  местностях, где нет подводки к централизованным системам.
+                  Выполнение главной функции в обеспечении комфортного
+                  проживания в условиях умеренного климата с его холодными
+                  зимами ложится на автономные.
+                </p>
+                <a href="#" class="projects__item-all"
+                  ><!-- Читать полностью --></a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="index.html" class="footer__menu-logo"
+                  ><img src="images/logo.svg" alt="" class="logo"
+                /></a>
+              </li>
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Коротко о нас</p>
+              </li>
+              <li class="footer__menu-item">
+                <p class="footer__menu-item">
+                  BD Srtoi - это организация, специализирующаяся в строительстве
+                  и ремонте зданий. Она обладает командой профессионалов,
+                  включая инженеров, архитекторов, строителей и других
+                  специалистов, обеспечивая полный цикл строительных услуг.
+                </p>
+              </li>
+            </ul>
+
+            <ul class="footer__menu-list-centr">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Меню</p>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#main" class="footer__menu-link">Главная</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#best" class="footer__menu-link">Преимущества</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#uslugi" class="footer__menu-link">Услуги</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#projects" class="footer__menu-link">Проекты</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="contacts.html" class="footer__menu-link">Контакты</a>
+              </li>
+            </ul>
+
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Мы в соц. сетях</p>
+              </li>
+              <li class="footer__menu-item">
+                <p class="footer__menu-item">
+                  Мы ценим каждого нашего подписчика и готовы делиться с вами
+                  самыми свежими новостями и идеями. Вместе мы создаем
+                  удивительные вещи!Не упустите возможность быть в курсе всего,
+                  что происходит в BD stroi!
+                  Ждем вас в наших социальных сетях!
+                </p>
+              </li>
+              <li class="app__icon">
+                <a href="https://instagram.com" target="_blank">
+                  <svg width="40px" height="40px" viewBox="0 0 30 30">
+                    <path
+                      id="instagram"
+                      fill="#000"
+                      d="M22.107,3.415H7.893c-2.469,0-4.479,2.007-4.479,4.477v4.73v9.486c0,2.469,2.01,4.479,4.479,4.479h14.215
+                  c2.469,0,4.479-2.01,4.479-4.479v-9.486v-4.73C26.586,5.421,24.576,3.415,22.107,3.415 M23.393,6.086l0.512-0.004v0.511v3.416
+                  l-3.916,0.014l-0.012-3.928L23.393,6.086z M11.693,12.622c0.742-1.028,1.945-1.7,3.307-1.7s2.564,0.672,3.307,1.7
+                  c0.484,0.67,0.771,1.49,0.771,2.379c0,2.248-1.828,4.078-4.078,4.078c-2.248,0-4.078-1.83-4.078-4.078
+                  C10.922,14.112,11.211,13.292,11.693,12.622 M24.328,22.107c0,1.225-0.994,2.219-2.221,2.219H7.893
+                  c-1.225,0-2.219-0.994-2.219-2.219v-9.486h3.459C8.832,13.356,8.664,14.159,8.664,15c0,3.494,2.842,6.335,6.336,6.335
+                  s6.336-2.842,6.336-6.335c0-0.842-0.17-1.645-0.467-2.379h3.459V22.107z"
+                    />
+                  </svg>
+                </a>
+                <a href="https://vk.com" class="app__icon-link">
+                  <img src="images/vk.svg" alt="vk" class="app__icon-img"
+                  style="width: 40px;">
+                </a>
+                <a href="#" class="app__icon-link">
+                  <img src="images/tgm.svg" alt="tgm" class="app__icon-img" />
+                </a>
+                <a href="#" class="app__icon-link">
+                  <img src="images/whsapp.svg" alt="wa" class="app__icon-img" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="copy__nav">
+            <ul class="copy__nav-item">
+              <a href="policy.html" class="copy__nav-link">Политика конфиденциальности</a>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
